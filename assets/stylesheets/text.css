@@ -1,0 +1,16 @@
+
+
+h1 {
+  color: Crimson;
+  font-family: 'Rock Salt', cursive;
+  text-align: center;
+}
+
+.col-md-2 {
+  color: MediumTurquoise;
+  font-family: 'Rock Salt', cursive;
+}
+
+small, .score {
+  font-family: 'Josefin Sans', sans-serif;
+}

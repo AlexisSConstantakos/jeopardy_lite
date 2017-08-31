@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jeopardy Lite</title>
+
+    <link type="text/css" rel="stylesheet" href="assets/stylesheets/text.css" />
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+
+  <header>
+    <h1 class="text-center">Jeopardy Lite</h1>
+  </header>
+
+
+  <div class="container">
+    <div class="col-md-2">Question</div>
+      <small id="question"></small>
+
+    <div class="col-md-2">Category</div>
+      <small id="category"></small>
+
+    <div class="col-md-2">Point Value</div>
+      <small id="pointValue"></small>
+
+    <!-- <div class="col-md-2">Answer</div>
+      <small id="answer"></small> -->
+  </div>
+
+
+  <div class="score">
+    Score: <span id="score">0</span><br>
+  </div>
+
+
+  <input type="text" id="inputAnswer" style="width:150px;height:25px;">
+
+  <div>
+    <button id="guessButton">Guess</button>
+  </div>
+
+  <!-- <div>
+    <button id="nextQuestion">Next</button>
+  </div> -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascripts/jeopardy.js"></script>
+  </body>
+</html>
